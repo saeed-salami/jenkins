@@ -28,8 +28,8 @@ pipeline {
                 script {
                     ansiblePlaybook(
                         credentialsId: 'id_rsa', // SSH credentials for access
-                        inventory: 'D:/ansible/inventory.ini', // Path to your inventory file
-                        playbook: 'D:/ansible/playbook.yml', // Path to your playbook
+                        inventory: '/mnt/d/ansible/inventory.ini', // Path to your inventory file
+                        playbook: '/mnt/d/ansible/playbook.yml', // Path to your playbook
                         become: true, // Use sudo if required
                         extraVars: [
                             key1: 'value1', // Additional variables if needed
