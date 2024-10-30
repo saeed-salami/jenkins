@@ -26,16 +26,7 @@ pipeline {
 		stage('Run Ansible Playbook') {
             steps {
                 script {
-                    ansiblePlaybook(
-                        credentialsId: 'id_rsa', // SSH credentials for access
-                        inventory: '/mnt/c/Users/User/AppData/Local/Jenkins/.jenkins/workspace/testforjenkings/inventory.ini', // Path to your inventory file
-                        playbook: '/mnt/c/Users/User/AppData/Local/Jenkins/.jenkins/workspace/testforjenkings/playbook.yml', // Path to your playbook
-                        become: true, // Use sudo if required
-                        extraVars: [
-                            key1: 'value1', // Additional variables if needed
-                            key2: 'value2'
-                        ]
-                    )
+                    sh 'ansible-playbook /mnt/c/Users/User/AppData/Local/Jenkins/.jenkins/workspace/testforjenkings/playbook.yml -i /mnt/c/Users/User/AppData/Local/Jenkins/.jenkins/workspace/testforjenkings/inventory.ini -b --become-user root'
                 }
             }
         }
