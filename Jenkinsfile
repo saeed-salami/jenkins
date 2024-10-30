@@ -10,26 +10,22 @@ pipeline {
 // 	}
 
 	stages {
-
 		stage('Build'){
 			steps {
 				bat "mvn clean install -DskipTests"
 			}
-		}
-
-		stage('Test'){
-			steps{
-				bat "mvn test"
-			}
-		}
-
-		stage('Run Ansible Playbook') {
+	    }
+	    stage('Test'){
+		    steps{
+			    bat "mvn test"
+		    }
+	    }
+	    stage('Run Ansible Playbook') {
             steps {
                 script {
-                    sh 'echo "Running shell command"',
-//                     sh 'ansible-playbook -i inventory.ini playbook.yml'
+                    bat 'ansible-playbook -i inventory.ini playbook.yml'
                 }
             }
         }
-	}
+    }
 }
