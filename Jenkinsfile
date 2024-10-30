@@ -28,8 +28,8 @@ pipeline {
                 script {
                     ansiblePlaybook(
                         credentialsId: 'id_rsa', // SSH credentials for access
-                        inventory: 'inventory.ini', // Path to your inventory file
-                        playbook: 'playbook.yml', // Path to your playbook
+                        inventory: '/mnt/c/Users/User/AppData/Local/Jenkins/.jenkins/workspace/testforjenkings/inventory.ini', // Path to your inventory file
+                        playbook: '/mnt/c/Users/User/AppData/Local/Jenkins/.jenkins/workspace/testforjenkings/playbook.yml', // Path to your playbook
                         become: true, // Use sudo if required
                         extraVars: [
                             key1: 'value1', // Additional variables if needed
