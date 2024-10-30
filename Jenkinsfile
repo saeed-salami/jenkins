@@ -26,6 +26,7 @@ pipeline {
 		stage('Run Ansible Playbook') {
             steps {
                 script {
+                    sh 'wsl --user root',
                     sh 'ansible-playbook -i inventory.ini playbook.yml'
                 }
             }
