@@ -26,7 +26,7 @@ pipeline {
 		stage('Run Ansible Playbook') {
             steps {
                 script {
-                    sh 'ansible-playbook /mnt/c/Users/User/AppData/Local/Jenkins/.jenkins/workspace/testforjenkings/playbook.yml -i /mnt/c/Users/User/AppData/Local/Jenkins/.jenkins/workspace/testforjenkings/inventory.ini -b --become-user root'
+                    sh 'ansible-playbook -i inventory.ini playbook.yml'
                 }
             }
         }
