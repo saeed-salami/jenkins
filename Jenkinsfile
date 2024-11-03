@@ -20,17 +20,10 @@ pipeline {
 			    bat "mvn test"
 		    }
 	    }
-	    stage('Run wsl'){
-	        steps {
-	            script {
-	                bat 'wsl --user root'
-	            }
-	        }
-	    }
 	    stage('Run Ansible Playbook') {
             steps {
                 script {
-                    sh 'ansible-playbook -i inventory.ini playbook.yml'
+                    bat 'java -jar target/testforjenkings-0.0.1-SNAPSHOT.jar'
                 }
             }
         }
