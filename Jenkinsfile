@@ -20,10 +20,17 @@ pipeline {
 			    bat "mvn test"
 		    }
 	    }
+	    stage('Run wsl'){
+	        steps {
+	            script {
+	                bat 'wsl --user root'
+	            }
+	        }
+	    }
 	    stage('Run Ansible Playbook') {
             steps {
                 script {
-                    bat 'ansible-playbook -i inventory.ini playbook.yml'
+                    sh 'ansible-playbook -i inventory.ini playbook.yml'
                 }
             }
         }
