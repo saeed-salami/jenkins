@@ -12,18 +12,18 @@ pipeline {
 	stages {
 		stage('Build'){
 			steps {
-				bat "mvn clean install -DskipTests"
+				sh "mvn clean install -DskipTests"
 			}
 	    }
 	    stage('Test'){
 		    steps{
-			    bat "mvn test"
+			    sh "mvn test"
 		    }
 	    }
 	    stage('Run Ansible Playbook') {
             steps {
                 script {
-                    bat 'java -jar target/testforjenkings-0.0.1-SNAPSHOT.jar'
+                    sh 'java -jar target/testforjenkings-0.0.1-SNAPSHOT.jar'
                 }
             }
         }
