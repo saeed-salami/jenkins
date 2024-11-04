@@ -14,21 +14,21 @@
     - name: Clone a GitHub repository
       git:
         repo: https://github.com/saeed-salami/jenkins.git
-        dest: /mnt/d/forAnyTest
+        dest: /home/user/ansible
         clone: yes 
         update: yes
 
     - name: Build the application with Maven
       command: mvn clean install
       args:
-        chdir: /mnt/d/forAnyTest/
+        chdir: /home/user/ansible/jenkins
 
     - name: Copy your-app.jar to destination
       copy:
-        src: /mnt/d/forAnyTest/target/testforjenkings-0.0.1-SNAPSHOT.jar
-        dest: /mnt/d/forAnyTest/
+        src: /home/user/ansible/jenkins/target/testforjenkings-0.0.1-SNAPSHOT.jar
+        dest: /home/user/ansible/jenkins
         remote_src: yes
     - name: Run Java application
-      command: java -jar /mnt/d/forAnyTest/testforjenkings-0.0.1-SNAPSHOT.jar
+      command: java -jar /home/user/ansible/jenkins/testforjenkings-0.0.1-SNAPSHOT.jar
       register: java_run
       failed_when: java_run.rc not in [0, 1]  
