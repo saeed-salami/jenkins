@@ -1,0 +1,29 @@
+172.18.0.1 - - [10/Nov/2024:12:18:25 +0000] "GET / HTTP/1.1" 200 171 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+172.18.0.1 - - [10/Nov/2024:12:20:19 +0000] "GET / HTTP/1.1" 200 171 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0"
+172.18.0.1 - - [10/Nov/2024:12:20:20 +0000] "GET /favicon.ico HTTP/1.1" 404 111 "http://localhost/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0"
+172.18.0.1 - - [10/Nov/2024:12:20:51 +0000] "GET / HTTP/1.1" 200 171 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0"
+172.18.0.1 - - [10/Nov/2024:12:21:28 +0000] "GET / HTTP/1.1" 200 171 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+172.18.0.1 - - [10/Nov/2024:12:21:29 +0000] "GET / HTTP/1.1" 200 171 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+172.18.0.1 - - [10/Nov/2024:12:21:30 +0000] "GET / HTTP/1.1" 200 171 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+172.18.0.1 - - [10/Nov/2024:12:21:30 +0000] "GET / HTTP/1.1" 200 171 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+172.18.0.1 - - [10/Nov/2024:12:21:30 +0000] "GET / HTTP/1.1" 200 171 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+172.18.0.1 - - [10/Nov/2024:12:21:31 +0000] "GET / HTTP/1.1" 200 171 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+172.18.0.1 - - [10/Nov/2024:12:21:31 +0000] "GET / HTTP/1.1" 200 171 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+172.18.0.1 - - [10/Nov/2024:12:22:13 +0000] "GET / HTTP/1.1" 200 171 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0"
+172.18.0.1 - - [10/Nov/2024:12:22:14 +0000] "GET / HTTP/1.1" 200 171 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0"
+172.18.0.1 - - [10/Nov/2024:12:22:14 +0000] "GET / HTTP/1.1" 200 171 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0"
+172.18.0.1 - - [10/Nov/2024:12:22:14 +0000] "GET / HTTP/1.1" 200 171 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0"
+172.18.0.1 - - [10/Nov/2024:12:22:15 +0000] "GET / HTTP/1.1" 200 171 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0"
+172.18.0.1 - - [10/Nov/2024:12:22:15 +0000] "GET / HTTP/1.1" 200 171 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0"
+172.18.0.1 - - [10/Nov/2024:12:22:15 +0000] "GET / HTTP/1.1" 200 171 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0"
+172.18.0.1 - - [10/Nov/2024:12:22:15 +0000] "GET / HTTP/1.1" 200 171 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0"
+172.18.0.1 - - [10/Nov/2024:12:22:16 +0000] "GET / HTTP/1.1" 200 171 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0"
+172.18.0.1 - - [10/Nov/2024:12:29:54 +0000] "GET / HTTP/1.1" 200 171 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" upstream_addr=172.18.0.3:8080
+172.18.0.1 - - [10/Nov/2024:12:30:11 +0000] "GET / HTTP/1.1" 200 171 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" upstream_addr=172.18.0.3:8080
+172.18.0.1 - - [10/Nov/2024:12:30:12 +0000] "GET / HTTP/1.1" 499 0 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" upstream_addr=172.18.0.2:8080
+172.18.0.1 - - [10/Nov/2024:12:30:12 +0000] "GET / HTTP/1.1" 200 171 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" upstream_addr=172.18.0.3:8080
+172.18.0.1 - - [10/Nov/2024:12:30:12 +0000] "GET / HTTP/1.1" 200 171 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" upstream_addr=172.18.0.2:8080
+172.18.0.1 - - [10/Nov/2024:12:30:13 +0000] "GET / HTTP/1.1" 200 171 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" upstream_addr=172.18.0.3:8080
+172.18.0.1 - - [10/Nov/2024:12:30:13 +0000] "GET / HTTP/1.1" 200 171 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" upstream_addr=172.18.0.2:8080
+172.18.0.1 - - [10/Nov/2024:12:30:14 +0000] "GET / HTTP/1.1" 200 171 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" upstream_addr=172.18.0.3:8080
+172.18.0.1 - - [10/Nov/2024:12:30:14 +0000] "GET / HTTP/1.1" 200 171 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" upstream_addr=172.18.0.2:8080
